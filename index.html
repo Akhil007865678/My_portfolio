@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhil - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(1, 1, 26);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(11, 11, 59);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(117, 174, 224);
+            font-size: 1.3rem;
+        }
+        main hr{
+            border: 0;
+            background: rgb(114, 114, 237);
+            height: 1.2px;
+            margin: 40px 20px;
+        }
+        .left{
+            font-size: 1.6rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 110px 0;
+            align-items: center;
+        }
+        .firstSection >div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+        .leftSection .buttons{
+            padding: 25px;
+        }
+        .leftSection .btn{
+           padding: 12px;
+           background: rgb(3, 3, 44);
+           color: white;
+           border: 2px solid white;
+           border-radius: 6px;
+           font-size: 20px;
+           cursor: pointer;
+        }
+        .rightSection img{
+            width: 80%;
+            margin: 50px 0;
+        }
+        .purple{
+            color: rgb(129, 82, 129);
+        }
+        #element{
+            color: rgb(129, 82, 129);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+           
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection.vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+        }
+        .text-gray{
+            column-rule: rgb(120, 85, 223);
+        }
+        .image-top{
+            width: 23px;
+        }
+        .vertical-title{
+            
+        }
+        .vertical-desc{
+
+        }
+        footer{
+            background-color: rgb(0, 0, 10);
+            
+        }
+        .footer{
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0px;
+        }
+        .icon{
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Akhil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a>Home</a></li>
+                    <li>
+                        <a href="https://www.instagram.com/accounts/edit/">
+                            <img class="icon" src="instagram.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/accounts/edit/">
+                            <img class="icon" src="linkedin.png">
+                        </a>
+                    </li>
+                    <li><a>About</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Akhil</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <section class="secondSection">
+            <hr>
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img>
+                    <div class="vertical-title">HTML Devloper (2023-2024)</div>
+                    <div class="vertical-desc">Node.js Devloper (2024-2022)</div>
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                      <h3>Akhil's Devloper Portfolio</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                www.akhilsportfolio.com | All rights reserved
+            </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Designer.', 'Graphic Designer.','Web Devloper.'],
+              typeSpeed: 50,
+            });
+          </script>
+    </main>
+</body>
+</html>
