@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(1, 1, 26);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(11, 11, 59);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.menu{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(117, 174, 224);
+    font-size: 1.3rem;
+}
+main hr{
+    border: 0;
+    background: rgb(114, 114, 237);
+    height: 1.2px;
+    margin: 40px 20px;
+}
+.left{
+    font-size: 1.6rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0;
+    align-items: center;
+}
+.firstSection >div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 3rem;
+    margin: 30px 0;
+}
+.leftSection .buttons{
+    padding: 25px;
+}
+.leftSection .btn{
+   padding: 12px;
+   background: rgb(3, 3, 44);
+   color: white;
+   border: 2px solid white;
+   border-radius: 6px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.rightSection img{
+    width: 80%;
+    margin-bottom: 100px;
+}
+.purple{
+    color: rgb(129, 82, 129);
+}
+#element{
+    color: rgb(129, 82, 129);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+   
+}
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection.vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+}
+.text-gray{
+    column-rule: rgb(120, 85, 223);
+}
+.image-top{
+    width: 23px;
+}
+
+footer{
+    background-color: rgb(0, 0, 10);
+    
+}
+.footer{
+    display: flex;
+    margin: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+.footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .right{
+        display: none;
+    }
+    .leftSection .btn{
+        background: rgb(3, 3, 44);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 5px;
+    }
+    .buttons{
+        width: 200px;
+        margin-top: 90px;
+        display: flex;
+    }
+    .leftSection{
+        font-size: 1.5rem;
+        margin: 30px 0;
+    }
+  
+}
