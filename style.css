@@ -134,7 +134,8 @@ footer{
 #menu-part{
     display: none;
 }
-
+.part{
+    display: none;
 @media screen and (max-width: 400px){
     .right{
         display: none;
