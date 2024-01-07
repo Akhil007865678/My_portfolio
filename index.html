@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,12 +24,20 @@
                     <li><a>Contact me</a></li>
                 </ul>
             </div>
-            <div class="menu"><li>menu</li></div>
+            <div><button class="menu" type="button" onclick="myfunction()">menu</button></div>
         </nav>
     </header>
+    
     <main>
+        <div id="menu-part">
+            <li class="part"><a>Home</a></li>
+            <li class="part"><a>About</a></li>
+            <li class="part"><a>Service</a></li>
+            <li class="part"><a>Projects</a></li>
+            <li class="part"><a>Contact me</a></li>
+        </div>
         <section class="firstSection">
-            <div class="leftSection">
+            <div id="leftSection">
                 Hi, My name is <span class="purple">Akhil</span>
                 <div>and I am a passionate</div>
                 <span id="element"></span>
@@ -37,6 +46,7 @@
                     <button class="btn">Visit Github</button>
                     
                 </div>
+                
             </div>
             <div class="rightSection">
                 <img src="bg.png" alt="">
@@ -50,16 +60,14 @@
             <div class="box">
                 <div class="vertical">
                     <img>
-                    <div class="vertical-title">HTML Devloper (2023-2024)</div>
-                    <div class="vertical-desc">Node.js Devloper (2024-2022)</div>
+                    <div class="vertical-title">HTML CSS Devloper (2022-2023)</div>
+                    <div class="vertical-desc">Node.js Devloper (2023-2024)</div>
                 </div>
                 <div class="vertical"></div>
                 <div class="vertical"></div>
                 <div class="vertical"></div>
             </div>
-
-
-
+            
             <li>
                 <a href="https://www.instagram.com/accounts/edit/">
                     <img class="icon" src="instagram.png">
@@ -70,24 +78,12 @@
                     <img class="icon" src="linkedin.png">
                 </a>
             </li>
-
-
-
-
-
+        
         </section>
         <footer>
             <div class="footer">
                 <div class="footer-first">
                       <h3>Akhil's Devloper Portfolio</h3>
-                </div>
-                <div class="footer-second">
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Services</li>
-                    </ul>
                 </div>
                 
             </div>
@@ -102,6 +98,7 @@
               typeSpeed: 50,
             });
           </script>
+          <script src="app.js"></script>
     </main>
 </body>
 </html>
